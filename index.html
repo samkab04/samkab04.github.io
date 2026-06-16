@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal website for Sam Kab - projects, background, and ways to connect."
+    />
+    <title>Sam Kab | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#home">Sam Kab</a>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home" class="container">
+      <section class="hero">
+        <p class="eyebrow">Hello, I’m Sam 👋</p>
+        <h1>Building useful things on the web.</h1>
+        <p>
+          Welcome to my personal site. I’m focused on learning, shipping, and
+          sharing projects as I grow my software engineering skills.
+        </p>
+        <a class="button" href="#projects">See projects</a>
+      </section>
+
+      <section id="about" class="card">
+        <h2>About</h2>
+        <p>
+          I enjoy turning ideas into small, practical products. My current
+          focus is improving front-end fundamentals and building full-stack
+          project experience.
+        </p>
+      </section>
+
+      <section id="projects" class="card">
+        <h2>Projects</h2>
+        <ul class="project-list">
+          <li>
+            <h3>samkab04.github.io</h3>
+            <p>
+              The source for this site: a lightweight, mobile-friendly static
+              portfolio hosted on GitHub Pages.
+            </p>
+          </li>
+          <li>
+            <h3>More coming soon</h3>
+            <p>
+              I’ll add project write-ups here as I continue building and
+              learning.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>Contact</h2>
+        <p>Find me on GitHub and connect:</p>
+        <ul>
+          <li>
+            GitHub:
+            <a href="https://github.com/samkab04">github.com/samkab04</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Sam Kab</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
