@@ -4,7 +4,7 @@ Personal website for @samkab04, built as a simple static site for GitHub Pages.
 
 ## Local preview
 
-Open `/home/runner/work/samkab04.github.io/samkab04.github.io/index.html` in a browser.
+Open `index.html` in a browser from the repository root.
 
 ## GitHub Pages deployment
 
